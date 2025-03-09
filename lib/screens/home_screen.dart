@@ -117,6 +117,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     Colors.red,
                     "mailto:aswanikumarpatna@gmail.com",
                   ),
+                  _buildSocialIcon(
+                    Icons.web,
+                    Colors.green,
+                    "https://ashwanikumar.org/",
+                  ),
                 ],
               ),
             ),
