@@ -61,10 +61,15 @@ class _SplashScreenState extends State<SplashScreen> {
                       ),
                     ],
                   ),
-                  child: ClipOval(
-                    child: Image.asset(
-                      'assets/politician.jpg',
-                      fit: BoxFit.cover,
+                  child: SizedBox(
+                    height: 400,
+                    width: 400,
+                    child: ClipOval(
+                      child: Image.asset(
+                        'assets/politician.jpg',
+
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ).animate().fade(duration: 1000.ms).scale(duration: 1000.ms),
