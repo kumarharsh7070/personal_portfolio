@@ -157,7 +157,7 @@ class _AboutPageState extends State<AboutPage>
       {
         'title': 'Married Life and Family',
         'content':
-            'On November 17, 2009, he married Mrs. Abhilasa Sinha at Malslami, Patna City. He has two children:...',
+            'On November 17, 2009, he married Mrs. Abhilasha Sinha at Malslami, Patna City. He has two children:...',
       },
       {
         'title': 'Education and Early Life',
@@ -323,7 +323,7 @@ Widget _buildFooter() {
             ),
             _buildFooterColumn(
               'Contact',
-              '📍 Address: Pashuram Colony, Sandalpur more, Kumhrar, Patna 800007\n📞 Phone: 6123587207\n✉️ Email: pankajsinha@ashwanikumar.org',
+              '📍 Address: parshuram Colony, Sandalpur more, Kumhrar, Patna 800007\n📞 Phone: 6123587207\n✉️ Email: pankajsinha@ashwanikumar.org',
             ),
             _buildSocialMediaLinks(),
           ],
